@@ -79,8 +79,8 @@ let fizzDivisor = Math.round(Math.random() * (10 - 1) + 1);
 let buzzDivisor = Math.round(Math.random() * (10 - 1) + 1);
 let start = Math.round(Math.random() * (10 - 1) + 1);
 let end = Math.round(Math.random() * (1000 - 100) + 100);
-for (i = start; i <= end; start++){
-    if(start % fizzDivisor == 0 && start % buzzDivisor == 0){
+for (i = start; i <= end; i++){
+    if(i % fizzDivisor == 0 && i % buzzDivisor == 0){
         console.log("Fizzbuzz");
     }
     else if(i % fizzDivisor == 0){
